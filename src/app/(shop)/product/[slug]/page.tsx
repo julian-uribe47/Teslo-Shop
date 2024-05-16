@@ -46,7 +46,7 @@ export default function ({ params }: Props) {
 
       </div>
       {/* Detail */}
-      <div className=" col-span-1 ">
+      <div className=" col-span-1 p-3">
         <h1 className={` ${titleFont.className} antialiased font-bold text-xl`}>
           {product.title}
         </h1>
