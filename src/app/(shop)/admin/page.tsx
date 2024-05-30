@@ -1,6 +1,6 @@
 
-// eslint-disable-next-line import/no-anonymous-default-export, react/display-name
-export default function() {
+
+export default function AdminPage() {
   return (
     <div>
       <h1>Admin Page</h1>

@@ -1,6 +1,6 @@
-/* eslint-disable react/no-unescaped-entities */
 
-// eslint-disable-next-line import/no-anonymous-default-export, react/display-name
+
+
 import { QuantitySelector, Title } from "@/components";
 import { initialData } from "@/seed/seed";
 import Image from "next/image";
@@ -13,8 +13,8 @@ const productsInCart = [
   initialData.products[2]
 ]
 
-// eslint-disable-next-line import/no-anonymous-default-export, react/display-name
-export default function () {
+
+export default function CheckoutPage() {
   return (
     <div className=" flex justify-center items-center mb-72 px-10 sm:px-0">
 
@@ -105,7 +105,7 @@ export default function () {
               <p className=" mb-5">
                   {/* Disclaimer */}
                   <span className=" text-xs">
-                    Al hacer click en "Colocar orden", aceptas los <a href="#" className=" underline">Términos y condiciones</a> y la <a href="#" className=" underline">política de privacidad</a>
+                    Al hacer click en &quot;Colocar orden&quot;, aceptas los <a href="#" className=" underline">Términos y condiciones</a> y la <a href="#" className=" underline">política de privacidad</a>
                   </span>
 
               </p>
